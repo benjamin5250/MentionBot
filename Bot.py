@@ -32,20 +32,20 @@ spam_chats = []
 async def start(event):
     chat_id = event.chat_id
     if not event.is_private:
-        return await event.respond("ɪ ᴀᴍ ᴀʟɪᴠᴇ 🥺")
+        return await event.respond("I'm not dead 😎")
     await event.reply(
-        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪  𝐈 𝐚𝐦 𝐏𝐮𝐫𝐩𝐥𝐞 𝐏𝐥𝐚𝐧𝐞𝐭 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐛𝐨𝐭 𝐭𝐨 𝐦𝐞𝐧𝐭𝐢𝐨𝐧 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐢𝐧 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦\n✪ 𝐓𝐡𝐚𝐧𝐤𝐬 𝐟𝐨𝐫 𝐮𝐬𝐢𝐧𝐠 𝐦𝐞 𝐚𝐧𝐝 𝐭𝐲𝐩𝐞 /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [Claude](https://t.me/clauderis)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Purple Planet](https://t.me/purpleplaneteer)┓\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/clauderis) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪  𝐈 𝐚𝐦 ဂရပ်ထမယ် 𝐌𝐞𝐧𝐭𝐢𝐨𝐧 𝐛𝐨𝐭 𝐭𝐨 𝐦𝐞𝐧𝐭𝐢𝐨𝐧 𝐚𝐥𝐥 𝐭𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐢𝐧 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦\n✪ 𝐓𝐡𝐚𝐧𝐤𝐬 𝐟𝐨𝐫 𝐮𝐬𝐢𝐧𝐠 𝐦𝐞 𝐚𝐧𝐝 𝐭𝐲𝐩𝐞 /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ Owner    : [KAREN](https://t.me/KoShine_Apaing)\n┣★ Group › : [ဂရပ်ထမယ်](https://t.me/EwhWTBjxYuYxYTFl)┓\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/KoShine_Apaing) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
         link_preview=False,
         buttons=(
             [
                 Button.url(
                     "☀︎︎️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☀︎︎",
-                    "https://t.me/PurplePlanetMentionRobot?startgroup=true",
+                    "https://t.me/Gayetbot?startgroup=true",
                 ),
             ],
             [
-                Button.url("☀︎︎ ɢʀᴏᴜᴘ ☀︎︎︎", "https://t.me/purpleplaneteer"),
-                Button.url("☀︎︎ ᴄʜᴀɴɴᴇʟ ☀︎︎", "https://t.me/purpleplaneteers"),
+                Button.url("☀︎︎ Group ☀︎︎︎", "https://t.me/EwhWTBjxYuYxYTFl"),
+                Button.url("☀︎︎ Owner ☀︎︎", "https://t.me/KoShine_Apaing"),
             ],
         ),
     )
@@ -56,14 +56,14 @@ async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ 🥺")
-    helptext = "✪ 𝐇𝐞𝐥𝐩 𝐌𝐞𝐧𝐮 𝐎𝐟 𝐏𝐮𝐫𝐩𝐥𝐞 𝐏𝐥𝐚𝐧𝐞𝐭 𝐌𝐞𝐧𝐭𝐢𝐨𝐧\n\n✪ ᴄᴏᴍᴍᴀɴᴅ: /mentionall\n✪ ᴄᴏᴍᴍᴀɴᴅ: /cancel ᴛᴏ ᴄᴀɴᴄᴇʟ ɢᴏɪɴɢ ᴏɴ ᴘʀᴏᴄᴇss.\n✪ ᴄᴏᴍᴍᴀɴᴅ /admin ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴀᴅᴍɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ\n✪ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.\n✪ `Example: /mentionall Good Morning!`\n✪ Yᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ. Bᴏᴛ ᴡɪʟʟ ᴛᴀɢ ᴜsᴇʀs ᴛᴏ ᴛʜᴀᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇsssᴀɢᴇ."
+    helptext = "✪ 𝐇𝐞𝐥𝐩 𝐌𝐞𝐧𝐮 𝐎𝐟 ဂရပ်ထမယ် 𝐌𝐞𝐧𝐭𝐢𝐨𝐧\n\n✪ ᴄᴏᴍᴍᴀɴᴅ: /mentionall\n✪ ᴄᴏᴍᴍᴀɴᴅ: /cancel ᴛᴏ ᴄᴀɴᴄᴇʟ ɢᴏɪɴɢ ᴏɴ ᴘʀᴏᴄᴇss.\n✪ ᴄᴏᴍᴍᴀɴᴅ /admin ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴀᴅᴍɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ\n✪ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.\n✪ `Example: /mentionall Good Morning!`\n✪ Yᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ. Bᴏᴛ ᴡɪʟʟ ᴛᴀɢ ᴜsᴇʀs ᴛᴏ ᴛʜᴀᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇsssᴀɢᴇ."
     await event.reply(
         helptext,
         link_preview=False,
         buttons=(
             [
-                Button.url("☀︎︎ Group", "https://t.me/purpleplaneteer"),
-                Button.url("Channel ☀︎︎", "https://t.me/purpleplaneteers"),
+                Button.url("☀︎︎ Group", "https://t.me/EwhWTBjxYuYxYTFl"),
+                Button.url("Channel ☀︎︎", "https://t.me/KoShine_Apaing"),
             ]
         ),
     )
@@ -74,20 +74,20 @@ async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ 🥺")
-    helptext = "✪ 𝐎𝐰𝐧𝐞𝐫 𝐌𝐞𝐧𝐮 𝐎𝐟 𝐏𝐮𝐫𝐩𝐥𝐞 𝐏𝐥𝐚𝐧𝐞𝐭 𝐌𝐞𝐧𝐭𝐢𝐨𝐧\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [Claude](https://t.me/clauderis\n✪ The creator\n✪ ᴄʜᴀɴɴᴇʟ(https://t.me/purpleplaneteers\n✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
+    helptext = "✪ 𝐎𝐰𝐧𝐞𝐫 𝐌𝐞𝐧𝐮 𝐎𝐟 ဂရပ်ထမယ် 𝐌𝐞𝐧𝐭𝐢𝐨𝐧\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [KAREN](https://t.me/KoShine_Apaing\n✪ The creator\n✪ Group(ttps://t.me/EwhWTBjxYuYxYTFl\n✪ "
     await event.reply(
         helptext,
         link_preview=False,
         buttons=(
             [
-                Button.url("☀︎︎ ɢʀᴏᴜᴘ ☀︎︎︎", "https://t.me/purpleplaneteer"),
-                Button.url("☀︎︎ ᴄʜᴀɴɴᴇʟ ☀︎︎", "https://t.me/purpleplaneteers"),
+                Button.url("☀︎︎ Group ☀︎︎︎", "https://t.me/EwhWTBjxYuYxYTFl"),
+                Button.url("☀︎︎ Owner ☀︎︎", "https://t.me/KoShine_Apaing"),
             ]
         ),
     )
 
 
-@client.on(events.NewMessage(pattern="^/mentionall ?(.*)"))
+@client.on(events.NewMessage(pattern="^/mentionall|@mentionall|@all ?(.*)"))
 async def mentionall(event):
     chat_id = event.chat_id
     if event.is_private:
@@ -220,7 +220,7 @@ async def cancel_spam(event):
         return await event.respond("sᴛᴏᴘᴘᴇᴅ.")
 
 
-print(">> PURPLE PLANET MENTION WORKING <<")
+print(">> ဂရပ်ထမယ် MENTION IS WORKING <<")
 client.run_until_disconnected()
 
 
