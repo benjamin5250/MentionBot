@@ -35,12 +35,14 @@ async def start(event):
         return await event.respond("I'm not dead 😎")
 
 @client.on(events.NewMessage(pattern="^/play ?(.*)")) 
- async def _(event): 
-     chat_id = event.chat_id 
-     if event.is_private: 
-         return await event.respond("sᴏʀʀʏ ʏᴏᴜ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴀᴅᴍɪɴ ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘ")
-
-
+async def help(event):
+    chat_id = event.chat_id
+    if not event.is_private:
+        return await event.respond("public")
+    helptext = "test"
+    await event.reply(
+        helptext,
+        link_preview=False,
 
 print(">> PurplePlanet MENTION IS WORKING <<")
 client.run_until_disconnected()
