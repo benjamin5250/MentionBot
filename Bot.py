@@ -34,7 +34,7 @@ async def start(event):
     if not event.is_private:
         return await event.respond("I'm not dead 😎")
 
-@client.on(events.NewMessage(pattern="^/play ?(.*)")) 
+@client.on(events.NewMessage(pattern="^/play|/vplay|/playforce|/vplayforce ?(.*)")) 
 async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
