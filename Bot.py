@@ -33,9 +33,6 @@ async def start(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("I'm not dead 😎")
-    await event.reply("test
-        "
-        )
 
 @client.on(events.NewMessage(pattern="^/play ?(.*)")) 
  async def _(event): 
