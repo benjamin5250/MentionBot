@@ -34,12 +34,32 @@ async def start(event):
     if not event.is_private:
         return await event.respond("I'm not dead 😎")
 
-@client.on(events.NewMessage(pattern="^/play|/vplay|/playforce|/vplayforce ?(.*)")) 
+@client.on(events.NewMessage(pattern="^/update ?(.*)")) 
 async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
-        return await event.respond("ဝမ်းနည်းပါတယ်ခင်ဗျာ။ ကချင်ပြည်နယ်၊ လိုင်ဇာမြို့တွင်ဖြစ်ပွားခဲ့သော အပြစ်မဲ့ပြည်သူများနှင့် ကလေးသူငယ်များအား စစ်ကောင်စီမှ ဥပဒေမဲ့ သတ်ဖြတ်မှုနှင့်ပတ်သတ်ပြီး Purple Planet မှ ပြည်သူများနှင့်အတူ ရပ်တည်လျှက်ရှိပါတယ်၊ ဝမ်းနည်းမှုအထိမ်းအမှတ်အဖြစ် Group Profile Picture ပြောင်းလဲကာ၊ Music Bot အသုံးပြုခွင့်အား ၂၄နာရီရပ်နားထားမည်ဖြစ်ပါသည်။")
-    helptext = "ဝမ်းနည်းပါတယ်ခင်ဗျာ။ ကချင်ပြည်နယ်၊ လိုင်ဇာမြို့တွင်ဖြစ်ပွားခဲ့သော အပြစ်မဲ့ပြည်သူများနှင့် ကလေးသူငယ်များအား စစ်ကောင်စီမှ ဥပဒေမဲ့ သတ်ဖြတ်မှုနှင့်ပတ်သတ်ပြီး Purple Planet မှ ပြည်သူများနှင့်အတူ ရပ်တည်လျှက်ရှိပါတယ်၊ ဝမ်းနည်းမှုအထိမ်းအမှတ်အဖြစ် Group Profile Picture ပြောင်းလဲကာ၊ Music Bot အသုံးပြုခွင့်အား ၂၄နာရီရပ်နားထားမည်ဖြစ်ပါသည်။"
+        return await event.respond("မင်္ဂလာပါခင်ဗျာ ... Group Music Bot အား ပြန်လည်အသုံးပြုနိုင်ပြီဖြစ်ပါသည်။")
+    helptext = "မင်္ဂလာပါခင်ဗျာ... Group Music Bot အား ပြန်လည်အသုံးပြုနိုင်ပြီဖြစ်ပါသည်။"
+    await event.reply(
+        helptext,
+        link_preview=False )
+
+@client.on(events.NewMessage(pattern="^/nocp ?(.*)")) 
+async def help(event):
+    chat_id = event.chat_id
+    if not event.is_private:
+        return await event.respond("Group ထဲတွင် အသက်မပြည့်သေးသော ကလေးသူငယ်များနှင်ပတ်သတ်သည့် ပုံများ၊ စာများ၊ Group/Channel များ၊ link များ မျှဝေဖြန့်ဖြူးခြင်းပြုလုပ်ပါက Group မှထုတ်ပယ်ပါမည်။")
+    helptext = "Group ထဲတွင် အသက်မပြည့်သေးသော ကလေးသူငယ်များနှင်ပတ်သတ်သည့် ပုံများ၊ စာများ၊ Group/Channel များ၊ link များ မျှဝေဖြန့်ဖြူးခြင်းပြုလုပ်ပါက Group မှထုတ်ပယ်ပါမည်။"
+    await event.reply(
+        helptext,
+        link_preview=False )
+
+@client.on(events.NewMessage(pattern="^/pppl ?(.*)")) 
+async def help(event):
+    chat_id = event.chat_id
+    if not event.is_private:
+        return await event.respond("Group ထဲတွင် အသက်မပြည့်သေးသော ကလေးသူငယ်များနှင်ပတ်သတ်သည့် ပုံများ၊ စာများ၊ Group/Channel များ၊ link များ မျှဝေဖြန့်ဖြူးခြင်းပြုလုပ်ပါက Group မှထုတ်ပယ်ပါမည်။")
+    helptext = "Group ထဲတွင် အသက်မပြည့်သေးသော ကလေးသူငယ်များနှင်ပတ်သတ်သည့် ပုံများ၊ စာများ၊ Group/Channel များ၊ link များ မျှဝေဖြန့်ဖြူးခြင်းပြုလုပ်ပါက Group မှထုတ်ပယ်ပါမည်။"
     await event.reply(
         helptext,
         link_preview=False )
