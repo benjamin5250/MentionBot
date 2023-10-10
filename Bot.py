@@ -39,6 +39,11 @@ async def start(event):
         "
     )
 
+@client.on(events.NewMessage(pattern="^/play ?(.*)")) 
+ async def _(event): 
+     chat_id = event.chat_id 
+     if event.is_private: 
+         return await event.respond("sᴏʀʀʏ ʏᴏᴜ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴀᴅᴍɪɴ ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘ")
 
 
 
