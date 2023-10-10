@@ -42,7 +42,7 @@ async def help(event):
     helptext = "test"
     await event.reply(
         helptext,
-        link_preview=False,
+        link_preview=False )
 
 print(">> PurplePlanet MENTION IS WORKING <<")
 client.run_until_disconnected()
