@@ -219,7 +219,7 @@ async def cancel_spam(event):
             pass
         return await event.respond("sᴛᴏᴘᴘᴇᴅ.")
 
-@client.on(events.NewMessage(pattern="^ကျပ်မပြည့်တဲ့သုံးကောင် ?(.*)")) 
+@client.on(events.NewMessage(pattern="^/ကျပ်မပြည့်တဲ့သုံးကောင်|ကျပ်မပြည့်တဲ့သုံးကောင်|-ကျပ်မပြည်တဲ့သုံးကောင် ?(.*)")) 
 async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
