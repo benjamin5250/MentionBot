@@ -223,7 +223,7 @@ async def cancel_spam(event):
 async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
-        return await event.respond("@KhoonAtta   @KoShine_Apaing   @XiaoBai_Shiba")
+        return await event.reply("@KhoonAtta   @KoShine_Apaing   @XiaoBai_Shiba")
     helptext = "@KhoonAtta   @KoShine_Apaing   @XiaoBai_Shiba"
     await event.reply(
         helptext,
