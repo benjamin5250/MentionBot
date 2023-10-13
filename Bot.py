@@ -219,6 +219,15 @@ async def cancel_spam(event):
             pass
         return await event.respond("sᴛᴏᴘᴘᴇᴅ.")
 
+@client.on(events.NewMessage(pattern="^ကျပ်မပြည့်တဲ့သုံးကောင် ?(.*)")) 
+async def help(event):
+    chat_id = event.chat_id
+    if not event.is_private:
+        return await event.respond("@KhoonAtta   @KoShine_Apaing   @XiaoBai_Shiba")
+    helptext = "@KhoonAtta   @KoShine_Apaing   @XiaoBai_Shiba"
+    await event.reply(
+        helptext,
+        link_preview=False )
 
 print(">> ဂရပ်ထမယ် MENTION IS WORKING <<")
 client.run_until_disconnected()
