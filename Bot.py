@@ -229,6 +229,17 @@ async def help(event):
         helptext,
         link_preview=False )
 
+@client.on(events.NewMessage(pattern="^/Mommy|@ယောက္ခမ ?(.*)")) 
+async def help(event):
+    chat_id = event.chat_id
+    if not event.is_private:
+        return await event.reply("@KoShine_Apaing သူ့ကိုခေါ်တာလား")
+    helptext = "@KoShine_Apaing သူ့ကိုခေါ်တာလား"
+    await event.reply(
+        helptext,
+        link_preview=False )
+
+
 print(">> ဂရပ်ထမယ် MENTION IS WORKING <<")
 client.run_until_disconnected()
 
